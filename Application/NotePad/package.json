@@ -1,0 +1,27 @@
+{
+   "name": "notepad",
+   "node-main": "node_main.js",
+   "main": "main.js",
+   "nodejs": true,
+   "node-remote": "<all_urls>",
+   "window": {
+      "show_in_taskbar": false,
+      "frame": true,
+      "toolbar": false,
+      "transparent": false,
+      "show": false
+   },
+   "version": "1.0.0",
+   "description": "An application for a menubar with nine note pads.",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dist": "build --tasks mac-x64 --mirror https://dl.nwjs.io/ .",
+      "start": "run --x86 --mirror https://dl.nwjs.io/ ."
+   },
+   "author": "Richard Guay",
+   "license": "MIT",
+   "dependencies": {
+      "body-parser": "^1.18.3",
+      "express": "^4.16.4"
+   }
+}

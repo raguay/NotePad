@@ -1,3 +1,11 @@
+.git
+.DS_Store
+NotePad.app
+node_modules
+*-lock.json
+dist
+.mint
+
 # Logs
 logs
 *.log
